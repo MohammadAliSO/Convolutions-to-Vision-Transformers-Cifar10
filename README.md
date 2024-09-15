@@ -35,8 +35,7 @@ python -m pip install -r requirements.txt
 
 Dataset Cifar10 example
 
-![image-20240916010511594](C:\Users\MohammadAli\AppData\Roaming\Typora\typora-user-images\image-20240916010511594.png)
-
+![image](https://github.com/user-attachments/assets/230f9a70-8b42-47bc-9cb9-75a7bf5c6ea3)
 
 
 Result train 
@@ -64,4 +63,4 @@ Epoch10/10
 Epoch [9], train_loss: 0.5507, val_loss: 0.9920, val_acc: 0.6680
 ```
 
-![image-20240916010621902](C:\Users\MohammadAli\AppData\Roaming\Typora\typora-user-images\image-20240916010621902.png)
+![image](https://github.com/user-attachments/assets/952c7b86-2425-4eb0-a2c2-c4dc4b340151)

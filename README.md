@@ -35,7 +35,7 @@ python -m pip install -r requirements.txt
 
 Dataset Cifar10 example
 
-![image](https://github.com/user-attachments/assets/230f9a70-8b42-47bc-9cb9-75a7bf5c6ea3)
+![image](https://github.com/user-attachments/assets/03d17ab3-d62a-4479-b0ff-f613554aac92)
 
 
 Result train 

@@ -18,7 +18,50 @@ The pipeline of the proposed CvT architecture.
 
 We execute this code on Cifar10 Dataset and  train on 10 epoch get about 70% validation.
 
-
 Download Dataset: https://www.cs.toronto.edu/~kriz/cifar.html      
 Orginal Code git: https://github.com/microsoft/CvT      
 CVT paper: https://arxiv.org/abs/2103.15808      
+
+
+**Notice**:  this code test with python 3.9.13 and torch 1.7.1 (see on requirements.txt)		
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+
+
+### Report
+
+Dataset Cifar10 example
+
+![image-20240916010511594](C:\Users\MohammadAli\AppData\Roaming\Typora\typora-user-images\image-20240916010511594.png)
+
+
+
+Result train 
+
+```
+Epoch1/10
+Epoch [0], train_loss: 1.6958, val_loss: 1.4269, val_acc: 0.4648
+Epoch2/10
+Epoch [1], train_loss: 1.3566, val_loss: 1.2685, val_acc: 0.5273
+Epoch3/10
+Epoch [2], train_loss: 1.2043, val_loss: 1.1400, val_acc: 0.5977
+Epoch4/10
+Epoch [3], train_loss: 1.0940, val_loss: 1.1478, val_acc: 0.5664
+Epoch5/10
+Epoch [4], train_loss: 0.9759, val_loss: 0.9823, val_acc: 0.6289
+Epoch6/10
+Epoch [5], train_loss: 0.8778, val_loss: 0.9891, val_acc: 0.6523
+Epoch7/10
+Epoch [6], train_loss: 0.7948, val_loss: 1.0040, val_acc: 0.6875
+Epoch8/10
+Epoch [7], train_loss: 0.6974, val_loss: 0.9673, val_acc: 0.6719
+Epoch9/10
+Epoch [8], train_loss: 0.6242, val_loss: 1.0202, val_acc: 0.6367
+Epoch10/10
+Epoch [9], train_loss: 0.5507, val_loss: 0.9920, val_acc: 0.6680
+```
+
+![image-20240916010621902](C:\Users\MohammadAli\AppData\Roaming\Typora\typora-user-images\image-20240916010621902.png)
